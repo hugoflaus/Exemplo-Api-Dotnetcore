@@ -22,6 +22,7 @@ https://localhost:5001/api/funcionario/create
 ```
 ## PUT
 https://localhost:5001/api/funcionario
+```json
 {
 	"id":"1",
 	"nome":"Maria do Bairro",
@@ -29,6 +30,7 @@ https://localhost:5001/api/funcionario
 	"email": "maria.flausino@hotmail.com",
 	"telefone": "319854045891"
 }
+```
 ## DELETE
 https://localhost:5001/api/funcionario/1
 
