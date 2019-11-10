@@ -18,7 +18,7 @@ namespace Controllers
         }
         // GET api/values
         [Produces("application/json")]
-        [HttpGet]
+        [HttpGet("list")]
         public IActionResult Get()
         {
             try
@@ -34,7 +34,7 @@ namespace Controllers
 
         // GET api/values/5
         [Produces("application/json")]
-        [HttpGet("{id}")]
+        [HttpGet("show/{id}")]
         public IActionResult Get(int id)
         {
             try
@@ -49,7 +49,7 @@ namespace Controllers
 
         // POST api/values
         [Produces("application/json")]
-        [HttpPost]
+        [HttpPost("create")]
         public IActionResult Post([FromBody] Funcionario funcionario)
         {
             try
@@ -64,7 +64,7 @@ namespace Controllers
 
         // PUT api/values/5
         [Produces("application/json")]
-        [HttpPut()]
+        [HttpPut("update")]
         public IActionResult Put([FromBody] Funcionario funcionario)
         {
             try
@@ -84,7 +84,7 @@ namespace Controllers
 
         // DELETE api/values/5
         [Produces("application/json")]
-        [HttpDelete("{id}")]
+        [HttpDelete("destroy/{id}")]
         public IActionResult Excluir(int id)
         {
             try
