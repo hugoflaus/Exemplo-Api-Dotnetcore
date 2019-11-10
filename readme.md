@@ -12,12 +12,14 @@ https://localhost:5001/api/funcionario/show/2
 https://localhost:5001/api/funcionario
 ## POST
 https://localhost:5001/api/funcionario/create
+```json
 {
 	"nome":"teste ",
 	"endereco": "Rua A",
 	"email": "maria.flausino@hotmail.com",
 	"telefone": "319854045891"
 }
+```
 ## PUT
 https://localhost:5001/api/funcionario
 {
