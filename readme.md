@@ -1,5 +1,4 @@
-# Teste Tecnico
-
+# Api Dotnet Core 
 Projeto criado em dotnet core (c#), vscode e SO ubuntu.
 
 ## Testes
@@ -34,6 +33,6 @@ https://localhost:5001/api/funcionario
 ## DELETE
 https://localhost:5001/api/funcionario/1
 
-Metodos udpate e delete alterados para não usar post.
+
 
 
